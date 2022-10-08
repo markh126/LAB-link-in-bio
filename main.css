@@ -1,3 +1,38 @@
 body {
-  background-color: cornflowerblue;
+  background-color: rgb(135, 149, 174);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3 {
+  color: goldenrod;
+  text-align: center;
+  font-style: italic;
+}
+
+.wrapper {
+  width:150px;
+  height:150px;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius:50%;
+  position: relative;
+}
+
+.wrapper img {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left: -50px;
+  margin-top: 40px;
+  transform: translate(-50%,-50%)
+}
+
+div.btn {
+  margin: 50%;
 }
